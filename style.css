@@ -23,7 +23,7 @@ h1 {
 /* loader */
 
 .loader {
-    position: fixed:absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
