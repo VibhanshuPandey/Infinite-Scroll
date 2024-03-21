@@ -18,8 +18,7 @@ function imageLoaded() {
     console.log(imagesLoaded);
     if (imagesLoaded === totalImages) {
         ready = true;
-        loader.hidden = true;
-        console.log('ready =', ready);
+        loader.hidden = true;        
     }
 }
 
@@ -33,8 +32,7 @@ function setAttributes(element, attributes) {
 // elements for links & photos
 function displayPhotos() {
     imagesLoaded = 0;
-    totalImages = photosArray.length;
-    console.log('total images', totalImages);
+    totalImages = photosArray.length;    
     // function for rach object in photosArray
     photosArray.forEach((photo) => {
         // create <A> to link to unspalsh
