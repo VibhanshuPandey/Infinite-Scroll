@@ -33,12 +33,9 @@ function setAttributes(element, attributes) {
 function displayPhotos() {
     imagesLoaded = 0;
     totalImages = photosArray.length;    
-    // function for rach object in photosArray
     photosArray.forEach((photo) => {
         // create <A> to link to unspalsh
         const item = document.createElement('a');
-        // item.setAttribute('href', photo.links.html);
-        // item.setAttribute('target', '_blank');
         setAttributes(item, {
             href: photo.links.html,
             target: '_blank',
