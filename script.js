@@ -43,8 +43,7 @@ function displayPhotos() {
         // create <img> for photo
         const img = document.createElement('img');
         // img.setAttribute('src', photo.urls.regular);
-        // img.setAttribute('alt', photo.alt_description);
-        // img.setAttribute('title', photo.alt_description);
+        
         setAttributes(img, {
             src: photo.urls.regular,
             alt: photo.alt_description,
