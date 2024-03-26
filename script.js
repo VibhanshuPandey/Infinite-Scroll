@@ -42,7 +42,6 @@ function displayPhotos() {
         });
         // create <img> for photo
         const img = document.createElement('img');
-        // img.setAttribute('src', photo.urls.regular);
         
         setAttributes(img, {
             src: photo.urls.regular,
