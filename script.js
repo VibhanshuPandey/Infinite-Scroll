@@ -57,6 +57,7 @@ function displayPhotos() {
     });
 }
 
+
 // get photos from api
 async function getPhotos() {
     try {
