@@ -29,6 +29,7 @@ function setAttributes(element, attributes) {
     }
 }
 
+
 // elements for links & photos
 function displayPhotos() {
     imagesLoaded = 0;
